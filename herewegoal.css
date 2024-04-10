@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    -webkit-user-select: none;
+}
+
+.image {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.question-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.question-number {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.question-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.question-answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.question-answer:hover {
+    background-color: #f06451;
+    color: #fff;
+}
+
+.question-answer.active {
+    background-color: #f06451;
+    color: #fff;
+}
+
+.question-validation {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f06451;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-validation-message {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #f06451;
+    border: 2px solid #f06451;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-next {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f06451;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answer-indicator {
+    margin-left: 10px; /* Ajustez la marge selon vos besoins */
+}
